@@ -22,10 +22,20 @@ person:
 education:
 
   - school:
+      id: mhs
+      fullname: Menomonie High School
+    type: secondary
+    gpa: 4.0
+    when: 1996-08 -- 2000-06
+    notes: >
+      includes courses taken at University of Wisconsin - Stout (1998, 2000) and
+      St. David\'s RC High School, Dalkeith, Midlothian, Scotland (1999, 2000)
+
+  - school:
       id: stolaf
       name: St. Olaf
       fullname: St. Olaf College
-    student type: undergraduate
+    type: undergraduate
     degree:
       name: BA
       fullname: Bachelor of Arts
@@ -39,14 +49,14 @@ education:
       id: uwmad
       name: UW-Madison
       fullname: University of Wisconsin - Madison
-    student type: special student
+    type: special student
     degree: null
     major: Computer Science
     gpa: 3.68
     when: 2005-01 -- 2005-05
 
   - school: uwmad
-    student type: graduate
+    type: graduate
     degree:
       name: MS
       fullname: Master of Science
@@ -55,7 +65,7 @@ education:
     when: 2007-09 -- 2010-12
 
   - school: uwmad
-    student type: dissertator
+    type: dissertator
     degree:
       name: PhD
       fullname: Doctor of Philosophy
@@ -66,14 +76,71 @@ education:
     when: 2011-01 -- future (ABD)
 
 
-work history:
+employment:
 
-  - employer: Epic Systems Corporation
-    location: Verona, WI
-    when: 2006-05 -- 2007-08
-    title: Software Engineer
-    team: Electronic Data Interchange
-    desc:
+  - when: 2004
+    title: consultant programmer
+    desc: indoor air quality and healthy homes education project
+    under:
+      - Wendy MacDougall
+    employer: Dunn County Health Department
+    where: Menomonie, WI
+
+  - when: 2005
+    title: project assistant
+    desc: hydrologic and biogeochemical fluxes in land-water mosaics project
+    under:
+      - Jeffrey Cardille (postdoc)
+      - Stephen Carpenter
+      - Center for Limnology
+    employer: uwmad
+    where: Madison, WI
+
+  - when: 2006-05 -- 2007-08
+    title: programmer, technician
+    desc: external software interoperability, ambulatory EMR, HL7
+    under:
+      - Electronic Data Interchange
+    employer: Epic Systems Corporation
+    where: Verona, WI
+
+  - when: 2008 -- 2009
+    title: research assistant
+    desc: bootstrap learning project
+    under:
+      - David Page
+      - Jude Shavlik
+      - DARPA
+    employer:
+      id: bmi
+      name: Biostats
+      fullname: Biostatistics and Medical Informatics
+      type: department
+      org: uwmad
+    where: Madison, WI
+
+  - when: 2009
+    title: research assistant
+    desc: adverse drug event detection in observational medical data
+    under:
+      - David Page
+      - Observational Medical Outcomes Partnership
+      - Foundation for the National Institutes of Health
+    employer: bmi
+    where: Madison, WI
+
+  - when: 2010 -- present
+    title: research assistant
+    desc: >
+      machine learning for identifying adverse drug events in
+      observational medical data
+    under:
+      - David Page
+      - CIBM
+      - NIGMS
+      - FDA
+    employer: bmi
+    where: Madison, WI
 
 
 linkedin skills: # TODO remove once below expanded
@@ -97,7 +164,7 @@ skills: # TODO
 
 awards: # TODO
 
-  - stolaf scholarship
+  - stolaf scholarships?
 
   - dean\'s lists?
 
@@ -123,16 +190,16 @@ computer languages and technologies:
       desc: Can write with assistance, used in a project or class
     - name: familiar
       number: 3
-      desc: |
+      desc: >
         Can write with assistance, familiar with language and some libraries
     - name: fluent
       number: 4
-      desc: |
+      desc: >
         Can write with little reference, familiar with most of the
         language and the core standard library
     - name: native
       number: 5
-      desc: |
+      desc: >
         Can write with minimal reference, fluent with effectively all
         of the language and standard library, familiar with
         development ecosystem and 3rd-party packages
