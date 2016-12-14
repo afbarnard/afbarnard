@@ -1,0 +1,303 @@
+%YAML 1.2
+---
+# Curriculum Vitae of Aubrey Barnard in YAML format
+#
+# Copyright (c) 2016 Aubrey Barnard (CC-BY).  This free culture work is
+# licensed under a Creative Commons Attribution 4.0 International
+# License (https://creativecommons.org/licenses/by/4.0/).  See
+# `LICENSE.md` for details.
+
+
+# In general, entries should be in log order (increasing in time, appending)
+
+updated: 2016-12-14
+
+person:
+
+  name: Aubrey Barnard
+  byline: machine learning research scientist
+  # TODO how best do work and personal addresses with privacy? (no commits)
+
+
+education:
+
+  - school:
+      id: stolaf
+      name: St. Olaf
+      fullname: St. Olaf College
+    student type: undergraduate
+    degree:
+      name: BA
+      fullname: Bachelor of Arts
+    majors:
+      - Music Theory and Composition
+      - Computer Science
+    gpa: # TODO
+    when: 2000-09 -- 2004-05
+
+  - school:
+      id: uwmad
+      name: UW-Madison
+      fullname: University of Wisconsin - Madison
+    student type: special student
+    degree: null
+    major: Computer Science
+    gpa: 3.68
+    when: 2005-01 -- 2005-05
+
+  - school: uwmad
+    student type: graduate
+    degree:
+      name: MS
+      fullname: Master of Science
+    major: Computer Science
+    gpa: # TODO
+    when: 2007-09 -- 2010-12
+
+  - school: uwmad
+    student type: dissertator
+    degree:
+      name: PhD
+      fullname: Doctor of Philosophy
+    major: Computer Science
+    subarea: Machine Learning
+    minor: Statistics
+    gpa: 3.85 # TODO include MS or not?
+    when: 2011-01 -- future (ABD)
+
+
+work history:
+
+  - employer: Epic Systems Corporation
+    location: Verona, WI
+    when: 2006-05 -- 2007-08
+    title: Software Engineer
+    team: Electronic Data Interchange
+    desc:
+
+
+linkedin skills: # TODO remove once below expanded
+
+  - probabilistic models
+  - machine learning
+  - causal inference
+  - statistics
+  - data analysis
+  - databases
+  - artificial intelligence
+  - computer science
+  - algorithms
+  - software development
+  - open source software
+  - xml
+
+
+skills: # TODO
+
+
+awards: # TODO
+
+  - stolaf scholarship
+
+  - dean\'s lists?
+
+  - name: CIBM
+    fullname: Computation and Informatics in Biology and Medicine Trainee
+    type: funding
+    when: 2013-07 -- 2015-06
+
+  - name: focus talk # TODO
+    fullname:
+    type: best talk
+    when: 2015-07
+
+
+computer languages and technologies:
+
+  levels:
+    - name: read
+      number: 1
+      desc: Can recognize and read
+    - name: write
+      number: 2
+      desc: Can write with assistance, used in a project or class
+    - name: familiar
+      number: 3
+      desc: |
+        Can write with assistance, familiar with language and some libraries
+    - name: fluent
+      number: 4
+      desc: |
+        Can write with little reference, familiar with most of the
+        language and the core standard library
+    - name: native
+      number: 5
+      desc: |
+        Can write with minimal reference, fluent with effectively all
+        of the language and standard library, familiar with
+        development ecosystem and 3rd-party packages
+
+  - name: Basic
+    level: familiar
+    when: 1994 -- 1999
+
+  - name: C/C++
+    level: familiar
+    when: 2000 -- 2014
+
+  - name: Scheme
+    level: familiar
+    when: 2000 -- 2002
+
+  - name: Bash
+    level: fluent
+    when: 2000 -- 2016
+
+  - name: Linux
+    level: fluent
+    when: 2000 -- 2016
+
+  - name: HTML+CSS
+    level: familiar
+    when: 2001 -- 2004
+
+  - name: Java
+    level: native
+    when: 2002 -- 2015
+
+  - name: SVN
+    level: familiar
+    when: 2002 -- 2016
+
+  - name: Python
+    level: native
+    when: 2002? -- 2016 # TODO evidence to confirm start?
+
+  - name: SQL
+    level: familiar
+    when: 2002? -- 2016 # TODO evidence to confirm start?
+
+  - name: XML
+    level: familiar
+    when: 2002 -- 2004
+
+  - name: XSLT
+    level: write
+    when: 2002 -- 2004
+
+  - name: MUMPS
+    level: write
+    when: 2006 -- 2007
+
+  - name: OCaml
+    level: write
+    when: 2007 -- 2007
+
+  - name: LaTeX
+    level: familiar
+    when: 2007 -- 2016
+
+  - name: Prolog
+    level: familiar
+    when: 2008 -- 2014
+
+  - name: Matlab
+    level: write
+    when: 2008 -- 2015
+
+  - name: Git
+    level: familiar
+    when: 2011 -- 2016
+
+  - name: R
+    level: write
+    when: 2012 -- 2012
+
+  - name: Markdown
+    level: familiar
+    when: 2012 -- 2016
+
+  - name: YAML
+    level: write
+    when: 2013 -- 2016
+
+  - name: Go
+    level: familiar
+    when: 2013 -- 2014
+
+  - name: Fortran
+    level: write
+    when: 2013 -- 2014
+
+  - name: Julia
+    level: fluent
+    when: 2014 -- 2016
+
+
+software?: inkscape
+
+
+websites:
+
+  - name: GitHub
+    addr: https://github.com/afbarnard
+
+  - name: LinkedIn
+    addr: www.linkedin.com/in/afbarnard
+
+
+publications: # TODO list all papers, talks / presentations, posters here, distinguish by type
+
+
+service?: # TODO? other than reviewing?
+
+
+reviewing:
+
+  - id: ecml
+    name: ECMLPKDD
+    fullname:
+    when: 2013
+
+  - id: aaai
+    name: AAAI
+    fullname:
+    when: 2015
+
+  - id: kdd
+    name: KDD
+    fullname:
+    when: 2015
+
+  - id: aaai
+    when: 2016
+
+  - id: aaai
+    when: 2017
+
+
+community involvement: # TODO big data, etc.
+
+
+courses: # TODO
+
+
+standardized tests: # TODO
+
+  - name: SAT # TODO
+  - name: ACT # TODO
+  - name: GRE
+    when: 2006-11-03
+    scores:
+      - fullname: Analytical Writing
+        score: 5
+        percentile: 71
+      - fullname: Quantitative
+        score: 800
+        percentile: 94
+      - fullname: Verbal
+        score: 690
+        percentile: 96
+
+
+...
