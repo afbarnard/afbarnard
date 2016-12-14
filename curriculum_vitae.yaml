@@ -75,6 +75,8 @@ education:
     gpa: 3.85 # TODO include MS or not?
     when: 2011-01 -- future (ABD)
 
+  - causality short course?
+
 
 employment:
 
@@ -315,8 +317,46 @@ websites:
 
 publications: # TODO list all papers, talks / presentations, posters here, distinguish by type
 
+  - when: 2004-04-16
+    type: non-refereed paper
+    title: An Authentication System for Student and Faculty Projects
+    authors: Aubrey Barnard, Richard Brown, Theodore Johnson
+    venue: Midwest Instruction and Computing Symposium
+    where: Morris, MN, USA
 
-service?: # TODO? other than reviewing?
+  - when: 2012-06-28
+    type: poster
+    title: Identifying Adverse Drug Events with Relational Learning
+    authors: >
+      David Page, Vítor Santos Costa, Sriraam Natarajan, Aubrey Barnard,
+      Peggy Peissig, Michael Caldwell
+    venue: OMOP Symposium
+    where: Bethesda, MD, USA
+
+  - when: 2012-07-24
+    type: poster
+    title: Identifying Adverse Drug Events with Relational Learning
+    authors: >
+      David Page, Vítor Santos Costa, Sriraam Natarajan, Aubrey Barnard,
+      Peggy Peissig, Michael Caldwell
+    venue: aaai
+    where: Toronto, ON, CA
+
+  - when: 2012
+    type: refereed paper
+    title: Identifying Adverse Drug Events by Relational Learning
+    authors: >
+      David Page, Vítor Santos Costa, Sriraam Natarajan, Aubrey Barnard,
+      Peggy Peissig, Michael Caldwell
+    venue: aaai
+    where: Toronto, ON, CA
+
+  - CIBM retreat posters
+  - CIBM talk
+  - NLM training lightning and focus talks (durations and awards)
+
+
+service?: # TODO? other than reviewing? AIRG?
 
 
 reviewing:
