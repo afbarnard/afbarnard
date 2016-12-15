@@ -36,41 +36,41 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Creative Commons Attribution 4.0 International License
 ------------------------------------------------------
 
-Copyright (c) 2016 Aubrey Barnard
+A human-readable summary of the license is below and at
+https://creativecommons.org/licenses/by/4.0/.
 
-https://creativecommons.org/licenses/by/4.0/
+The full legal license is at
+https://creativecommons.org/licenses/by/4.0/legalcode.
 
-You are free to:
+### You are free to: ###
 
-  Share: copy and redistribute the material in any medium or format
+**Share**: copy and redistribute the material in any medium or format
 
-  Adapt: remix, transform, and build upon the material
+**Adapt**: remix, transform, and build upon the material
 
-  for any purpose, even commerically.
+for any purpose, even commerically.
 
-  The licensor cannot revoke these freedoms as long as you follow the
-  license terms.
+The licensor cannot revoke these freedoms as long as you follow the
+license terms.
 
-Under the following terms:
+### Under the following terms: ###
 
-  Attribution: You must give appropriate credit, provide a link to the
-  license, and indicate if changes were made.  You may do so in any
-  reasonable manner, but not in any way that suggests the licensor
-  endorses you or your use.
+**Attribution**: You must give appropriate credit, provide a link to the
+license, and indicate if changes were made.  You may do so in any
+reasonable manner, but not in any way that suggests the licensor
+endorses you or your use.
 
-  No additional restrictions: You may not apply legal terms or
-  technological measures that legally restrict others from doing
-  anything the license permits.
+**No additional restrictions**: You may not apply legal terms or
+technological measures that legally restrict others from doing anything
+the license permits.
 
-Notices:
+### Notices: ###
 
-  You do not have to comply with the license for elements of the
-  material in the public domain or where your use is permitted by an
-  applicable exception or limitation.
+You do not have to comply with the license for elements of the material
+in the public domain or where your use is permitted by an applicable
+exception or limitation.
 
-  No warranties are given.  The license may not give you all of the
-  permissions necessary for your intended use.  For example, other
-  rights such as publicity, privacy, or moral rights may limit how you
-  use the material.
-
-Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+No warranties are given.  The license may not give you all of the
+permissions necessary for your intended use.  For example, other rights
+such as publicity, privacy, or moral rights may limit how you use the
+material.
