@@ -209,6 +209,8 @@ computer languages and technologies:
   - name: Basic
     level: familiar
     when: 1994 -- 1999
+    # used TI-BASIC on TI-82 in middle school, TI-86, TI-92 in high
+    # school, QBasic in high school
 
   - name: C/C++
     level: familiar
@@ -226,9 +228,20 @@ computer languages and technologies:
     level: fluent
     when: 2000 -- 2016
 
+  - name: Perl
+    level: write
+    when: 2001 -- 2004
+    # ordered Learning Perl (O'Reilly, 3rd) 2001-10
+
+  - name: SQL
+    level: familiar
+    when: 2001 -- 2016
+    # `CSWork/postgresql` directory dated 2001-10-05 in `CSHomeBackup_Spring2004.tar.bz`
+
   - name: HTML+CSS
     level: familiar
     when: 2001 -- 2004
+    # ordered HTML & XHTML: The Definitive Guide (O'Reilly, 4th) 2001-10
 
   - name: Java
     level: native
@@ -240,19 +253,18 @@ computer languages and technologies:
 
   - name: Python
     level: native
-    when: 2002? -- 2016 # TODO evidence to confirm start?
-
-  - name: SQL
-    level: familiar
-    when: 2002? -- 2016 # TODO evidence to confirm start?
+    when: 2002 -- 2016
+    # ordered Programming Python (O'Reilly) 2002-09-23
 
   - name: XML
     level: familiar
     when: 2002 -- 2004
+    # ordered XML in a Nutshell (O'Reilly) 2002-03-07
 
   - name: XSLT
     level: write
     when: 2002 -- 2004
+    # ordered XSLT (O'Reilly) 2002-03-07
 
   - name: MUMPS
     level: write
