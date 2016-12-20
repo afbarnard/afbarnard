@@ -1,5 +1,3 @@
-%YAML 1.2
----
 # Curriculum Vitae of Aubrey Barnard in YAML format
 #
 # Copyright (c) 2016 Aubrey Barnard (CC-BY).  This free culture work is
@@ -7,6 +5,8 @@
 # License (https://creativecommons.org/licenses/by/4.0/).  See
 # `LICENSE.md` for details.
 
+%YAML 1.2
+---
 
 # In general, entries should be in log order (increasing in time, appending)
 
