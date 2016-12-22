@@ -25,7 +25,9 @@ education:
       id: mhs
       fullname: Menomonie High School
     type: secondary
+    degree: diploma
     gpa: 4.0
+    honors: valedictorian
     when: 1996-08 -- 2000-06
     notes: >
       includes courses taken at University of Wisconsin - Stout (1998, 2000) and
@@ -40,13 +42,16 @@ education:
       name: BA
       fullname: Bachelor of Arts
     majors:
-      - Music Theory and Composition
+      - Music
       - Computer Science
-    gpa: # TODO
+    minors:
+      - Music Theory and Composition
+    gpa: 3.82
+    honors: magna cum laude
     when: 2000-09 -- 2004-05
 
   - school:
-      id: uwmad
+      id: uwmadison
       name: UW-Madison
       fullname: University of Wisconsin - Madison
     type: special student
@@ -55,7 +60,7 @@ education:
     gpa: 3.68
     when: 2005-01 -- 2005-05
 
-  - school: uwmad
+  - school: uwmadison
     type: graduate
     degree:
       name: MS
@@ -64,7 +69,7 @@ education:
     gpa: # TODO
     when: 2007-09 -- 2010-12
 
-  - school: uwmad
+  - school: uwmadison
     type: dissertator
     degree:
       name: PhD
@@ -74,8 +79,6 @@ education:
     minor: Statistics
     gpa: 3.85 # TODO include MS or not?
     when: 2011-01 -- future (ABD)
-
-  - causality short course?
 
 
 employment:
@@ -95,7 +98,7 @@ employment:
       - Jeffrey Cardille (postdoc)
       - Stephen Carpenter
       - Center for Limnology
-    employer: uwmad
+    employer: uwmadison
     where: Madison, WI
 
   - when: 2006-05 -- 2007-08
@@ -118,7 +121,7 @@ employment:
       name: Biostats
       fullname: Biostatistics and Medical Informatics
       type: department
-      org: uwmad
+      org: uwmadison
     where: Madison, WI
 
   - when: 2009
@@ -399,6 +402,736 @@ community involvement: # TODO big data, etc.
 
 
 courses: # TODO
+
+  # UW-Stout during high school
+
+  - name: Calculus and Analytic Geometry 1
+    area: Math
+    number:
+    keywords: univariate, differentiation
+    teacher: Eileen Zito
+    when: 1998 fall
+    school: uwstout
+    student: hs
+    grade: A
+    credits: 5
+
+  - name: Calculus and Analytic Geometry 2
+    area: Math
+    number:
+    keywords: univariate, integration
+    teacher: # TODO Anne Antonippillai?
+    when: 2000 spring
+    school: uwstout
+    student: hs
+    grade: A
+    credits: 5
+
+  - name: International Relations
+    area: Political Science
+    number:
+    teacher: Stephen Snyder
+    when: 2000 spring
+    school: uwstout
+    student: hs
+    grade: A
+    credits: 3
+
+  - name: Computer Science 1
+    area:
+      id: CS
+      name: computer science
+    number:
+    keywords: C++
+    teacher: Paul J. Wagner
+    when: 2000 spring
+    school: uwstout
+    student: hs
+    grade: A
+    credits: 3
+
+  # St. Olaf College 2000--2001
+
+  - name: Principles of Computer Science
+    area: CS
+    number: 172
+    keywords: Scheme, recursion, lists
+    teacher:
+      id: RAB
+      name: Richard A. Brown
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A+
+    credits: 1
+
+  - name: First Year Writing
+    area: General Education
+    number: 111
+    teacher: Richard Buckstead
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Writing German
+    area: German
+    number: 251
+    teacher: Friederike von Schwerin-High? # TODO
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Ear Training, Sight-Singing, and Keyboard 1
+    area: Music
+    number: 111
+    teacher: Catherine Rodland? # TODO
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Theory 1
+    area: Music
+    number: 113
+    teacher: Martin Hodel? # TODO
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 3/4
+
+  - name: Piano
+    area: Music
+    number: 104
+    teacher: Yakov Gelfand? # TODO
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Violoncello
+    area: Music
+    number: 144
+    teacher: Anna Clift? # TODO
+    when: 2000 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Introduction to Japanese Film
+    area: Asian Studies
+    number: 124
+    teacher: Phyllis Hyland Larson
+    when: 2001 interim
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+
+  - name: Software Design and Implementation
+    area: CS
+    number: 272
+    keywords: C++, object-oriented design
+    teacher: RAB
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Bible in Culture and Community
+    area: Religion
+    number: 121
+    teacher: Philip E. Stoltzfus
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+
+  - name: Ballroom 1
+    area: Dance
+    number: 106
+    teacher: Anne von Bibra Wharton? # TODO
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: P
+    credits: 1/4
+
+  - name: Ear Training, Sight-Singing, and Keyboard 2
+    area: Music
+    number: 112
+    teacher:
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Theory 2
+    area: Music
+    number: 114
+    teacher:
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 3/4
+
+  - name: Piano
+    area: Music
+    number: 104
+    teacher:
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Violoncello
+    area: Music
+    number: 144
+    teacher:
+    when: 2001 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  # St. Olaf College 2001--2002
+
+  - name: Computer Organization
+    area: CS
+    number: 274
+    keywords: hardware, architecture, assembly language, JVM byte code
+    teacher: RAB
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Principles of Psychology
+    area: Psychology
+    number: 121
+    teacher: Charles W. Huff Jr.
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: History and Literature of Music 1
+    area: Music
+    number: 241
+    keywords: medieval, renaissance, baroque
+    teacher: Gerald Hoekstra
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: B+
+    credits: 1
+
+  - name: Ear Training, Sight-Singing, and Keyboard 3
+    area: Music
+    number: 211
+    teacher:
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Theory 3
+    area: Music
+    number: 213
+    teacher:
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 3/4
+
+  - name: Piano
+    area: Music
+    number: 104
+    teacher:
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Violoncello
+    area: Music
+    number: 144
+    teacher:
+    when: 2001 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Age of Goethe
+    area: German
+    number: 246
+    teacher: Karl J. Fink? # TODO
+    when: 2002 interim
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Programming Languages
+    area: CS
+    number: 376
+    keywords: syntax, semantics, parsing, interpreters, Scheme
+    teacher: Richard J. Allen
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+    notes: Scheme interpreter written in Java project
+
+  - name: Ballroom 2
+    area: Dance
+    number: 206
+    teacher:
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: P
+    credits: 1/4
+
+  - name: History and Literature of Music 2
+    area: Music
+    number: 242
+    keywords: classical, romantic, 20th century
+    teacher: Alice Hanson
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: B
+    credits: 1
+
+  - name: Ear Training, Sight-Singing, and Keyboard 4
+    area: Music
+    number: 212
+    teacher: David Hagedorn
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Theory 4
+    area: Music
+    number: 214
+    teacher: Forsberg? # TODO
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 3/4
+
+  - name: Piano
+    area: Music
+    number: 104
+    teacher:
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/2
+
+  - name: Violoncello
+    area: Music
+    number: 144
+    teacher:
+    when: 2002 spring
+    school: stolaf
+    student: ugrad
+    grade: B+
+    credits: 1/4
+
+  # summer piano with Penelope Cecchini: Rachmaninoff?
+
+  # St. Olaf College 2002--2003
+
+  - name: Data Structures
+    area: CS
+    number: 372
+    keywords: algorithms, data structures, searching, sorting, compression
+    teacher: Steven McKelvey
+    when: 2002 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Contemporary Native American Issues
+    area: Sociology / Anthropology
+    number: 235
+    teacher: Carolyn Anderson
+    when: 2002 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Christian Theology and the Moral Life
+    area: Religion
+    number: 207
+    teacher: Santurri? # TODO
+    when: 2002 fall
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+
+  - name: Ultimate Frisbee
+    area: Physical Education
+    number: 117
+    teacher:
+    when: 2002 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Composition 1
+    area: Music
+    number: 223
+    teacher: Peter Hamlin
+    when: 2002 fall
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+
+  - name: Piano
+    area: Music
+    number: 104
+    teacher:
+    when: 2002 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/4
+
+  - name: Music in the Electronic Medium
+    area: Music
+    number: 225
+    keywords: electronic music, computer music, synthesis, sequencing
+    teacher: Peter Hamlin
+    when: 2003 interim
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+    notes: SOX Java GUI project
+
+  - name: Biological Science
+    area: Biology
+    number: 121
+    keywords: introduction
+    teacher: Robert Rutherford
+    when: 2003 spring
+    school: stolaf
+    student: ugrad
+    grade: A+
+    credits: 1
+
+  - name: German Cinema Before and After Hitler
+    area: German
+    number: 149
+    teacher: Karen R. Achberger? # TODO
+    when: 2003 spring
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+
+  - name: Composition 2
+    area: Music
+    number: 324
+    teacher: Peter Hamlin
+    when: 2003 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+
+  - name: Piano
+    area: Music
+    number: 104
+    teacher: Yakov Gelfand
+    when: 2003 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/2
+
+  # Summer research
+
+  # St. Olaf College 2003--2004
+
+  - name: Seminar: Client-Server Applications
+    area: CS
+    number: 378
+    keywords: clients, servers, networking, security, XML, Java
+    teacher: RAB
+    when: 2003 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+    notes:
+
+  - name: Topic: History of American Music
+    area: Music
+    number: 345
+    keywords:
+    teacher: Alice Hanson
+    when: 2003 fall
+    school: stolaf
+    student: ugrad
+    grade: B
+    credits: 1
+    notes:
+
+  - name: Counterpoint
+    area: Music
+    number: 222
+    keywords:
+    teacher: Peter Hamlin? # TODO
+    when: 2003 fall
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+    notes:
+
+  - name: Composition 2
+    area: Music
+    number: 324
+    keywords:
+    teacher: Timothy J. Mahr
+    when: 2003 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+    notes:
+
+  - name: Instrumentation
+    area: Music
+    number: 221
+    keywords: composing, arranging
+    teacher: Steven Amundson
+    when: 2003 fall
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/2
+    notes:
+
+  - name: Piano
+    area: Music
+    number: 104
+    keywords:
+    teacher: Julia Elkina? # TODO
+    when: 2003 fall
+    school: stolaf
+    student: ugrad
+    grade: B-
+    credits: 1/4
+    notes:
+
+  - name: Seminar: Bioinformatics
+    area: CS
+    number: 378
+    keywords:
+    teacher:
+    when: 2004 interim
+    school: stolaf
+    student: ugrad
+    grade: A-
+    credits: 1
+    notes:
+
+  - name: Ethical Issues in Software
+    area: CS
+    number: 263
+    keywords:
+    teacher: Charles W. Huff Jr., RAB
+    when: 2004 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+    notes:
+
+  - name: Independent Research / Capstone Project
+    area: CS
+    number: 398
+    keywords: security, networking, XML, Java
+    teacher: RAB
+    when: 2004 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1
+    notes: MICS 2004 paper
+
+  - name: Composition 3
+    area: Music
+    number: 325
+    keywords: independent study, large ensemble
+    teacher: Peter Hamlin
+    when: 2004 spring
+    school: stolaf
+    student: ugrad
+    grade: A+
+    credits: 1
+    notes: >
+      composed 8-minute tone poem for symphony orchestra "Le Comte
+      Gris", rehearsed and recorded by the St. Olaf Orchestra; Hamlin
+      said the performance went the best of any student composition
+
+  - name: Conducting
+    area: Music
+    number: 251
+    keywords:
+    teacher: Steven Amundson
+    when: 2004 spring
+    school: stolaf
+    student: ugrad
+    grade: A
+    credits: 1/2
+    notes:
+
+  - name: Piano
+    area: Music
+    number: 104
+    keywords:
+    teacher: Irina Elkina
+    when: 2004 spring
+    school: stolaf
+    student: ugrad
+    grade: B
+    credits: 1/4
+    notes: >
+      Rachmaninoff Prelude Op. 32 No. 3, Nancy Paddleford said best jury
+      of mine
+
+  # UW-Madison special student spring 2005
+
+  - name: Introduction to Discrete Mathematics
+    area: CS
+    number: 240
+    keywords:
+    teacher: Arnold W. Miller
+    when: 2005 spring
+    school: uwmadison
+    student: special
+    grade: A
+    credits: 3
+    notes:
+
+  - name: Introduction to Theoretical Computer Science
+    area: CS
+    number: 520
+    keywords:
+    teacher: Dieter van Melkebeek
+    when: 2005 spring
+    school: uwmadison
+    student: special
+    grade: AB
+    credits: 3
+    notes:
+
+  - name: Introduction to Operating Systems
+    area: CS
+    number: 537
+    keywords: >
+      scheduling, process management, memory management, IO,
+      filesystems, C
+    teacher: Eli D. Collins
+    when: 2005 spring
+    school: uwmadison
+    student: special
+    grade: A
+    credits: 4
+    notes: >
+      http://pages.cs.wisc.edu/~eli/537/; projects included shell,
+      threading, filesystem
+
+  - name: Introduction to Artificial Intelligence
+    area: CS
+    number: 540
+    keywords: logic, Java
+    teacher: Michael Schultz
+    when: 2005 spring
+    school: uwmadison
+    student: special
+    grade: B
+    credits: 3
+    notes: >
+      http://web.archive.org/web/20050407085152/http://www.cs.wisc.edu/~mschultz/cs540/;
+      projects included search, decision trees, artificial neural
+      networks, soft clustering with expectation maximization
+
+  - name: All-University String Orchestra
+    area: Music
+    number: 60
+    keywords:
+    teacher: Janet Jensen
+    when: 2005 spring
+    school: uwmadison
+    student: special
+    grade: A
+    credits: 1
+    notes: Grieg\'s Holberg Suite
+
+  - name:
+    area:
+    number:
+    keywords:
+    teacher:
+    when:
+    school:
+    student:
+    grade:
+    credits:
+    notes:
+
+    # student types: primary | secondary | middle school | high school | undergraduate | masters | phd | special | audit | attend | tutor / private
+
+  - causality short course with Richard Scheines # TODO
+
+  - big data with Aditya Akella # TODO
+
+  - ML2 with Jerry Zhu
+
+  - jazz piano with McCutcheon?
+
+  - cello with Thomas Rosenberg
+
+  - philmarmonia with polley?
+
+  - piano with Penelope Cecchini, UW-Eau Claire
+
+  - piano with Colin Kingsley, University of Edinburgh
 
 
 standardized tests: # TODO
