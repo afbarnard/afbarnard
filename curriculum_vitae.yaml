@@ -66,7 +66,7 @@ education:
       name: MS
       fullname: Master of Science
     major: Computer Science
-    gpa: # TODO
+    gpa: 3.85
     when: 2007-09 -- 2010-12
 
   - school: uwmadison
@@ -420,7 +420,7 @@ courses: # TODO
     area: Math
     number:
     keywords: univariate, integration
-    teacher: # TODO Anne Antonippillai?
+    teacher: Anne Antonippillai
     when: 2000 spring
     school: uwstout
     student: hs
@@ -508,7 +508,7 @@ courses: # TODO
   - name: Piano
     area: Music
     number: 104
-    teacher: Yakov Gelfand? # TODO
+    teacher: Yakov Gelfand
     when: 2000 fall
     school: stolaf
     student: ugrad
@@ -518,7 +518,7 @@ courses: # TODO
   - name: Violoncello
     area: Music
     number: 144
-    teacher: Anna Clift? # TODO
+    teacher: Anna Clift
     when: 2000 fall
     school: stolaf
     student: ugrad
@@ -569,7 +569,7 @@ courses: # TODO
   - name: Ear Training, Sight-Singing, and Keyboard 2
     area: Music
     number: 112
-    teacher:
+    teacher: # TODO
     when: 2001 spring
     school: stolaf
     student: ugrad
@@ -579,7 +579,7 @@ courses: # TODO
   - name: Theory 2
     area: Music
     number: 114
-    teacher:
+    teacher: # TODO temporary guy, Chris?
     when: 2001 spring
     school: stolaf
     student: ugrad
@@ -589,7 +589,7 @@ courses: # TODO
   - name: Piano
     area: Music
     number: 104
-    teacher:
+    teacher: Yakov Gelfand
     when: 2001 spring
     school: stolaf
     student: ugrad
@@ -599,7 +599,7 @@ courses: # TODO
   - name: Violoncello
     area: Music
     number: 144
-    teacher:
+    teacher: Anna Clift
     when: 2001 spring
     school: stolaf
     student: ugrad
@@ -643,7 +643,7 @@ courses: # TODO
   - name: Ear Training, Sight-Singing, and Keyboard 3
     area: Music
     number: 211
-    teacher:
+    teacher: # TODO
     when: 2001 fall
     school: stolaf
     student: ugrad
@@ -653,7 +653,7 @@ courses: # TODO
   - name: Theory 3
     area: Music
     number: 213
-    teacher:
+    teacher: Martin Hodel
     when: 2001 fall
     school: stolaf
     student: ugrad
@@ -663,7 +663,7 @@ courses: # TODO
   - name: Piano
     area: Music
     number: 104
-    teacher:
+    teacher: Yakov Gelfand
     when: 2001 fall
     school: stolaf
     student: ugrad
@@ -673,7 +673,7 @@ courses: # TODO
   - name: Violoncello
     area: Music
     number: 144
-    teacher:
+    teacher: Anna Clift
     when: 2001 fall
     school: stolaf
     student: ugrad
@@ -683,7 +683,7 @@ courses: # TODO
   - name: Age of Goethe
     area: German
     number: 246
-    teacher: Karl J. Fink? # TODO
+    teacher: Karl J. Fink
     when: 2002 interim
     school: stolaf
     student: ugrad
@@ -705,7 +705,7 @@ courses: # TODO
   - name: Ballroom 2
     area: Dance
     number: 206
-    teacher:
+    teacher: # TODO
     when: 2002 spring
     school: stolaf
     student: ugrad
@@ -736,7 +736,7 @@ courses: # TODO
   - name: Theory 4
     area: Music
     number: 214
-    teacher: Forsberg? # TODO
+    teacher: Charles Forsberg
     when: 2002 spring
     school: stolaf
     student: ugrad
@@ -746,7 +746,7 @@ courses: # TODO
   - name: Piano
     area: Music
     number: 104
-    teacher:
+    teacher: Yakov Gelfand
     when: 2002 spring
     school: stolaf
     student: ugrad
@@ -756,7 +756,7 @@ courses: # TODO
   - name: Violoncello
     area: Music
     number: 144
-    teacher:
+    teacher: Thomas Rosenberg
     when: 2002 spring
     school: stolaf
     student: ugrad
@@ -791,7 +791,7 @@ courses: # TODO
   - name: Christian Theology and the Moral Life
     area: Religion
     number: 207
-    teacher: Santurri? # TODO
+    teacher: Edmund Santurri
     when: 2002 fall
     school: stolaf
     student: ugrad
@@ -801,7 +801,7 @@ courses: # TODO
   - name: Ultimate Frisbee
     area: Physical Education
     number: 117
-    teacher:
+    teacher: Scott Nesbit
     when: 2002 fall
     school: stolaf
     student: ugrad
@@ -821,7 +821,7 @@ courses: # TODO
   - name: Piano
     area: Music
     number: 104
-    teacher:
+    teacher: Yakov Gelfand
     when: 2002 fall
     school: stolaf
     student: ugrad
@@ -961,7 +961,7 @@ courses: # TODO
     area: CS
     number: 378
     keywords:
-    teacher:
+    teacher: # TODO RAB and French guy
     when: 2004 interim
     school: stolaf
     student: ugrad
