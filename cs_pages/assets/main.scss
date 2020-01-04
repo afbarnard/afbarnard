@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+// Center page titles
+h1 {
+    text-align: left;
+}
+
+// Add some spacing after horizontal rules
+hr {
+    margin-bottom: $spacing-unit / 2;
+}
+
+// Make spacing around my portrait
+.portrait {
+    margin-right: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+}

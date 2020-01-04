@@ -1,0 +1,33 @@
+# Jekyll configuration
+
+# Any top-level key here will be available in the HTML templates as `{{
+# site.<key> }}`.
+
+# General site information
+title:
+author: Aubrey Barnard
+description: Machine Learning Researcher
+
+# Site configuration
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+source: ""
+# Note that GitHub Pages does not allow changing the source directory:
+# https://help.github.com/en/articles/configuring-jekyll
+# Thus many files need to be excluded.
+destination: "../public/html"
+keep_files: # TODO
+timezone: America/Chicago
+encoding: utf-8
+
+# Content configuration
+header_pages:
+
+# Theme configuration
+theme: minima
+minima:
+  date_format: "%Y-%m-%d"
+
+# Social media
+github_username: afbarnard
+linkedin_username: afbarnard

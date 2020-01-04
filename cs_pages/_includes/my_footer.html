@@ -1,0 +1,20 @@
+<footer class="site-footer h-card">
+
+  <div class="wrapper">
+
+    <p class="copyright">
+    Copyright &copy; {{ page.copyright_years | escape }}
+    <span class="author">
+    {%- if page.author -%} {{ page.author | escape }}
+    {%- else -%} {{ site.author | escape }}
+    {%- endif -%}
+    </span>
+    (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>).
+    This is a free culture work licensed to the public under
+    a <a href="https://creativecommons.org/licenses/by/4.0/">Creative
+    Commons Attribution 4.0 International License</a>.
+    </p>
+
+  </div>
+
+</footer>
