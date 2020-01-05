@@ -19,3 +19,14 @@ hr {
     margin-right: $spacing-unit / 2;
     margin-bottom: $spacing-unit / 2;
 }
+
+// Add a background image.  See
+// https://www.w3schools.com/css/css_background.asp.
+body {
+    background-color: white;
+    background-image: url("../img/llmn_nlls_plot.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto 370px;
+    background-attachment: scroll;
+}
