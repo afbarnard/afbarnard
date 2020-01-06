@@ -8,15 +8,14 @@ title:
 author: Aubrey Barnard
 description: Machine Learning Researcher
 
-# Site configuration
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Site configuration for CS pages
+baseurl: "/~barnard"
+url: "http://pages.cs.wisc.edu"
 source: ""
 # Note that GitHub Pages does not allow changing the source directory:
 # https://help.github.com/en/articles/configuring-jekyll
 # Thus many files need to be excluded.
 destination: "../public/html"
-keep_files: # TODO
 timezone: America/Chicago
 encoding: utf-8
 

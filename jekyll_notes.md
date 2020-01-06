@@ -33,10 +33,15 @@ Getting the Website Running
   update`.)
   * (When not bundling, use `gem outdated` to see what gems can be
     updated and `gem update` to update them.)
-* Run web server:
+* Run web server to test locally:
 
       bundle exec jekyll serve & # Run in background but not detached
 
+* When all edits have been made, synchronize the content to CS:
+
+      bundle exec jekyll build
+      cd ..
+      rsync -auv public/html/ $HOST:/u/b/a/barnard/public/html/
 
 -----
 

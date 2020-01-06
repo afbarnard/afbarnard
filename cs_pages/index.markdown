@@ -11,7 +11,7 @@ Aubrey Barnard
 <img src="img/aubrey_barnard_portrait_square.jpg"
      alt="Portrait of Aubrey Barnard"
      class="portrait"
-     style="width:250px;"
+     style="width:250px;height:250px;"
 />
 <span>
 4720 Medical Sciences Center<br/>
@@ -20,11 +20,11 @@ Madison, WI 53706<br/>
 <br/>
 <code><a href="mailto:user-barnard@domain-cs.wisc.edu">user-barnard@domain-cs.wisc.edu</a></code><br/><br/>
 <ul class="social-media-list">
-<li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username | escape }}</span></a></li>
-<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">{{ site.linkedin_username| escape }}</span></a></li>
+<li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"/></svg> <span class="username">{{ site.github_username | escape }}</span></a></li>
+<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"/></svg> <span class="username">{{ site.linkedin_username | escape }}</span></a></li>
 </ul>
-<a href="TODO aubrey_barnard_cv.pdf">Curriculum Vitæ</a> |
-<a href="TODO aubrey_barnard_resume.pdf">Résumé</a>
+<!-- <a href="barnard_cv.pdf">Curriculum Vitæ</a> | -->
+<a href="barnard_resume.pdf">Résumé</a>
 </span>
 </div>
 
