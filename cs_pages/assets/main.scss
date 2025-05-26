@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@use "sass:math";
+
 @import "minima";
 
 // Center page titles
@@ -11,13 +13,13 @@ h1 {
 
 // Add some spacing after horizontal rules
 hr {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 // Make spacing around my portrait
 .portrait {
-    margin-right: $spacing-unit / 2;
-    margin-bottom: $spacing-unit / 2;
+    margin-right: math.div($spacing-unit, 2);
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 // Add a background image.  See
