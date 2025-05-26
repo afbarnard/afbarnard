@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Aubrey Barnard
-copyright_years: 2020
+copyright_years: 2020, 2025
 ---
 
 Aubrey Barnard
@@ -14,9 +14,10 @@ Aubrey Barnard
      style="width:250px;height:250px;"
 />
 <span>
-4720 Medical Sciences Center<br/>
-1300 University Ave<br/>
-Madison, WI 53706<br/>
+2778 West Wedge<br/>
+Wisconsin Institutes for Medical Research<br/>
+1111 Highland Avenue<br/>
+Madison, WI 53705<br/>
 <br/>
 <code><a href="mailto:user-barnard@domain-cs.wisc.edu">user-barnard@domain-cs.wisc.edu</a></code><br/><br/>
 <ul class="social-media-list">
@@ -28,13 +29,13 @@ Madison, WI 53706<br/>
 </span>
 </div>
 
----
+-----
 
-I do machine learning research, focusing on medical applications of
-causal discovery in electronic health records databases.  My research
-interests include causal inference, probabilistic graphical models,
-event history analysis / time series, multi-relational rule learning,
-and databases.
+I am a computer scientist doing machine learning research, mainly
+related to medical applications of causal discovery in electronic health
+records databases.  My research interests include algorithms, causality,
+probabilistic graphical models, graphs, event history analysis / time
+series, multi-relational rule learning, and databases.
 
 In 2019, I earned my PhD in [Computer Sciences](
 https://www.cs.wisc.edu/) from the [University of Wisconsin](
@@ -66,18 +67,21 @@ I ran the UW–Madison [ML and AI Reading Group](
 https://wiscairg.github.io/) for 5 semesters.
 
 
----
+-----
 
 
 Research Interests
 ------------------
 
-* Causality
-* Probabilistic graphical models
+* Algorithms
+* Causality (in observational data)
+* Probabilistic graphical models (including structural causal models),
+  structure learning, inference
+* Graph theory & algorithms
 * Event sequences / time series (patient histories in electronic health
   records can be modeled as irregular, sparse, and noisy sequences of
   events)
-* Multi-Relational rule learning (inductive logic programming)
+* Multi-relational rule learning (inductive logic programming)
 * Databases
 
 
@@ -95,32 +99,54 @@ Other Interests
 Current Projects
 ----------------
 
-* Effects of common drugs in electronic health records on the survival
-  of patients
-* Learning the structure of Markov and Bayesian networks via convex
-  optimization
-* Faster optimization for log-linear models
+* Identifying ovarian cancer earlier by inspecting electronic health
+  records
+* Pairwise interactions are sufficient for independence testing;
+  generalized Hammersley–Clifford theorem
+* Bayesian network structure learning via convex optimization
+* Efficiently enumerating relevant cycles
+* Scalable matching
+* Speeding up cross validation with experimental design
+* Principled, statistical comparison of graphs for evaluating structure
+  learning
+* Any-time inference for log-linear Markov networks via decreasing
+  likelihood enumeration
+* Better optimization for fitting log-linear models
+* Faster and more optimal inductive logic programming via frequent
+  itemset mining
+* Replacing noisy-OR
 
 
 Selected Papers
 ---------------
 
-* Temporal Inverse Probability Weighting for Discovering Adverse Drug Events Especially in Generic Drugs\
-  **Aubrey Barnard**, David Page, Peggy Peissig, Meng Hu\
-  In submission
+* Pairwise Interactions are Sufficient for Independence Testing\
+  **Aubrey Barnard**, Scott Alfeld\
+  In preparation
+
+* Temporal Inverse Probability Weighting for Causal Discovery in
+    Controlled Before–After Studies: Discovering ADEs in Generics\
+  **Aubrey Barnard**, Peggy Peissig, David Page\
+  Causal Learning and Reasoning 4 (PMLR 275), 2025\
+  [paper]( pubs/barnard2025TemporalIpw.paper.pdf),
+  [poster]( pubs/barnard2025TemporalIpw.poster.pdf)
 
 * [Causal Discovery of Adverse Drug Events in Observational Data](
-    http://pages.cs.wisc.edu/~barnard/barnard_dissertation.pdf)\
+    pubs/barnard2019CausalDiscoveryAdes.pdf)\
   **Aubrey Barnard**\
   PhD Dissertation, Computer Sciences, University of Wisconsin–Madison, 2019
 
 * [Causal Structure Learning via Temporal Markov Networks](
     http://proceedings.mlr.press/v72/barnard18a.html)\
   **Aubrey Barnard**, David Page\
-  Probabilistic Graphical Models 9, 2018
+  Probabilistic Graphical Models 9 (PMLR 72), 2018\
+  [combined paper & supplement](
+  pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.paper_suppl.pdf)
+  (NLM version), [poster](
+  pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.poster.pdf)
 
 * [Identifying Adverse Drug Events by Relational Learning](
-     https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4941)\
+    https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4941)\
   David Page, Vítor Santos Costa, Sriraam Natarajan, **Aubrey Barnard**, Peggy Peissig, Michael Caldwell\
   AAAI 26, 2012
 
