@@ -32,17 +32,17 @@ Madison, WI 53705<br/>
 -----
 
 I am a computer scientist doing machine learning research, mainly
-related to medical applications of causal discovery in electronic health
-records databases.  My research interests include algorithms, causality,
-probabilistic graphical models, graphs, event history analysis / time
-series, multi-relational rule learning, and databases.
+related to medical applications of causal discovery in databases of
+electronic health records.  My research interests include algorithms,
+causality, probabilistic graphical models, graphs, event history
+analysis / time series, multi-relational rule learning, and databases.
 
 In 2019, I earned my PhD in [Computer Sciences](
 https://www.cs.wisc.edu/) from the [University of Wisconsin](
 https://www.wisc.edu/), advised by [David Page](
-http://pages.cs.wisc.edu/~dpage/) (who has moved to [Duke](
+https://pages.cs.wisc.edu/~dpage/) (who has moved to [Duke](
 https://scholars.duke.edu/person/david.page)).  My [dissertation](
-http://pages.cs.wisc.edu/~barnard/barnard_dissertation.pdf) was on
+https://pages.cs.wisc.edu/~barnard/barnard_dissertation.pdf) was on
 discovering the adverse effects of medications, through learning the
 structure of Bayesian network causal models, and through analyzing
 observational studies with machine learning for hypothesizing drug
@@ -96,14 +96,20 @@ Other Interests
   [language]( https://golang.org/) is cool, too)
 
 
-Current Projects
-----------------
+Current Research Projects
+-------------------------
+
+My research approaches machine learning from a computer science
+perspective, focusing on improving efficiency through new algorithms or
+mathematical insights, or sometimes just filling in gaps.  I have
+research in progress on the following:
 
 * Identifying ovarian cancer earlier by inspecting electronic health
   records
 * Pairwise interactions are sufficient for independence testing;
   generalized Hammersley–Clifford theorem
-* Bayesian network structure learning via convex optimization
+* Non-combinatorial Bayesian network structure learning via convex
+  optimization
 * Efficiently enumerating relevant cycles
 * Scalable matching
 * Speeding up cross validation with experimental design
@@ -124,10 +130,12 @@ Selected Papers
   **Aubrey Barnard**, Scott Alfeld\
   In preparation
 
-* Temporal Inverse Probability Weighting for Causal Discovery in
-    Controlled Before–After Studies: Discovering ADEs in Generics\
+* [Temporal Inverse Probability Weighting for Causal Discovery in
+    Controlled Before–After Studies: Discovering ADEs in Generics](
+    https://proceedings.mlr.press/v275/barnard25a.html)\
   **Aubrey Barnard**, Peggy Peissig, David Page\
-  Causal Learning and Reasoning 4 (PMLR 275), 2025\
+  [Causal Learning and Reasoning 4]( https://www.cclear.cc/2025)
+    ([PMLR 275]( https://proceedings.mlr.press/v275/)), 2025\
   [paper]( pubs/barnard2025TemporalIpw.paper.pdf),
   [poster]( pubs/barnard2025TemporalIpw.poster.pdf)
 
@@ -137,20 +145,22 @@ Selected Papers
   PhD Dissertation, Computer Sciences, University of Wisconsin–Madison, 2019
 
 * [Causal Structure Learning via Temporal Markov Networks](
-    http://proceedings.mlr.press/v72/barnard18a.html)\
+    https://proceedings.mlr.press/v72/barnard18a.html)\
   **Aubrey Barnard**, David Page\
-  Probabilistic Graphical Models 9 (PMLR 72), 2018\
+  [Probabilistic Graphical Models 9]( https://pgm2018.utia.cz/)
+    ([PMLR 72]( https://proceedings.mlr.press/v72/)), 2018\
   [combined paper & supplement](
-  pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.paper_suppl.pdf)
-  (NLM version), [poster](
-  pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.poster.pdf)
+    pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.paper_suppl.pdf)
+  ([NLM version]( https://pmc.ncbi.nlm.nih.gov/articles/PMC12011105/)), 
+  [poster](
+    pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.poster.pdf)
 
 * [Identifying Adverse Drug Events by Relational Learning](
-    https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/4941)\
+    https://aaai.org/papers/8332-identifying-adverse-drug-events-by-relational-learning/)\
   David Page, Vítor Santos Costa, Sriraam Natarajan, **Aubrey Barnard**, Peggy Peissig, Michael Caldwell\
-  AAAI 26, 2012
+  [AAAI 26]( https://aaai.org/proceeding/01-aaai-2012/), 2012
 
-[Google Scholar Profile](https://scholar.google.com/citations?user=OtH22lQAAAAJ)
+[Google Scholar Profile]( https://scholar.google.com/citations?user=OtH22lQAAAAJ)
 
 <!--
 Examples:

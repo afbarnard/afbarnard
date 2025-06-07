@@ -50,6 +50,8 @@ Getting the Website Running
   server problems.
 
       rdbg -c -- bundle exec jekyll serve
+* Reference for [GitHub-flavored Markdown](
+  https://docs.github.com/en/get-started/writing-on-github).
 * When all edits have been made, synchronize the content to CS:
 
       bundle exec jekyll build
