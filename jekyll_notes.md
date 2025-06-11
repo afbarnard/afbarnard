@@ -44,6 +44,7 @@ Getting the Website Running
   * http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
 * Run web server to test locally:
 
+      rsync -av $HOST:/u/b/a/barnard/public/html/ public/html/
       bundle exec jekyll serve --incremental --livereload & # Run in background but not detached
 
   Use the [Ruby debugger]( https://github.com/ruby/debug) to figure out

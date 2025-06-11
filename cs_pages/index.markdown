@@ -137,12 +137,14 @@ Selected Papers
   [Causal Learning and Reasoning 4]( https://www.cclear.cc/2025)
     ([PMLR 275]( https://proceedings.mlr.press/v275/)), 2025\
   [paper]( pubs/barnard2025TemporalIpw.paper.pdf),
-  [poster]( pubs/barnard2025TemporalIpw.poster.pdf)
+  [poster]( pubs/barnard2025TemporalIpw.poster.pdf),
+  [bibtex]( pubs/barnard2025TemporalIpw.bibtex)
 
 * [Causal Discovery of Adverse Drug Events in Observational Data](
     pubs/barnard2019CausalDiscoveryAdes.pdf)\
   **Aubrey Barnard**\
-  PhD Dissertation, Computer Sciences, University of Wisconsin–Madison, 2019
+  PhD Dissertation, Computer Sciences, University of Wisconsin–Madison, 2019\
+  [bibtex]( pubs/barnard2019CausalDiscoveryAdes.bibtex)
 
 * [Causal Structure Learning via Temporal Markov Networks](
     https://proceedings.mlr.press/v72/barnard18a.html)\
@@ -151,14 +153,17 @@ Selected Papers
     ([PMLR 72]( https://proceedings.mlr.press/v72/)), 2018\
   [combined paper & supplement](
     pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.paper_suppl.pdf)
-  ([NLM version]( https://pmc.ncbi.nlm.nih.gov/articles/PMC12011105/)), 
+  ([NLM version]( https://pmc.ncbi.nlm.nih.gov/articles/PMC12011105/)),
   [poster](
-    pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.poster.pdf)
+    pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.poster.pdf),
+  [bibtex](
+    pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.bibtex)
 
 * [Identifying Adverse Drug Events by Relational Learning](
     https://aaai.org/papers/8332-identifying-adverse-drug-events-by-relational-learning/)\
   David Page, Vítor Santos Costa, Sriraam Natarajan, **Aubrey Barnard**, Peggy Peissig, Michael Caldwell\
-  [AAAI 26]( https://aaai.org/proceeding/01-aaai-2012/), 2012
+  [AAAI 26]( https://aaai.org/proceeding/01-aaai-2012/), 2012\
+  [bibtex]( pubs/page2012IdentifyingAdesRelationalLearning.bibtex)
 
 [Google Scholar Profile]( https://scholar.google.com/citations?user=OtH22lQAAAAJ)
 
