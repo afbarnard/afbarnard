@@ -14,7 +14,7 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
-    erb (5.0.1)
+    erb (6.0.1.1)
     eventmachine (1.2.7)
     ffi (1.17.2)
     ffi (1.17.2-aarch64-linux-gnu)
@@ -184,7 +184,7 @@ PLATFORMS
 DEPENDENCIES
   debug (>= 1.0.0)
   http_parser.rb (~> 0.6.0)
-  jekyll (~> 4.4.1)
+  jekyll (~> 4.4)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
