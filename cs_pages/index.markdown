@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Aubrey Barnard
-copyright_years: 2020, 2025
+copyright_years: 2020, 2025–2026
 ---
 
 Aubrey Barnard
@@ -14,11 +14,6 @@ Aubrey Barnard
      style="width:250px;height:250px;"
 />
 <span>
-2778 West Wedge<br/>
-Wisconsin Institutes for Medical Research<br/>
-1111 Highland Avenue<br/>
-Madison, WI 53705<br/>
-<br/>
 <code><a href="mailto:user-barnard@domain-cs.wisc.edu">user-barnard@domain-cs.wisc.edu</a></code><br/><br/>
 <ul class="social-media-list">
 <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"/></svg> <span class="username">{{ site.github_username | escape }}</span></a></li>
@@ -93,7 +88,9 @@ Other Interests
 * Programming languages
 * Linux
 * Go (the [game]( https://en.wikipedia.org/wiki/Go_(game)), but the
-  [language]( https://golang.org/) is cool, too)
+  [language]( https://golang.org/) is cool, too.  Come play or learn at
+  [UW–Madison Go Club](
+  https://baduk.club/club/1626408100128x999651800762024000)!)
 
 
 Current Research Projects
@@ -104,8 +101,6 @@ perspective, focusing on improving efficiency through new algorithms or
 mathematical insights, or sometimes just filling in gaps.  I have
 research in progress on the following:
 
-* Identifying ovarian cancer earlier by inspecting electronic health
-  records
 * Pairwise interactions are sufficient for independence testing;
   generalized Hammersley–Clifford theorem
 * Non-combinatorial Bayesian network structure learning via convex
@@ -126,14 +121,30 @@ research in progress on the following:
 Selected Papers
 ---------------
 
-* Pairwise Interactions are Sufficient for Independence Testing\
-  **Aubrey Barnard**, Scott Alfeld\
+* Understanding Cycle Bases and Implementing Cycle Independence Testing\
+  **AB**\
   In preparation
+
+* Pairwise Interactions are Sufficient for Independence Testing\
+  **AB**, Scott Alfeld\
+  In preparation
+
+* [Identifying Early Indicators of Ovarian Cancer in Electronic Health
+    Records via Interpretable Machine Learning and Clinical Mimic
+    Controls](
+    https://amia.secure-platform.com/symposium/gallery/rounds/82037/details/30393)\
+  Aurod Ounsinegad,\* **AB**,\* Peter Argenta, Rene Welch Schwartz, Sierra
+    Strutz, Tyson Wheelwright, Sumer Wallace, Jesús González-Bosquet,
+    Manish Patankar, Irene M. Ong\
+  AMIA Symposium, 2026\
+  Accepted for oral presentation.  \*Equal contributions.\
+  paper, <!--TODO[paper]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.paper.pdf),-->
+  bibtex <!--TODO[bibtex]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.bibtex)-->
 
 * [Temporal Inverse Probability Weighting for Causal Discovery in
     Controlled Before–After Studies: Discovering ADEs in Generics](
     https://proceedings.mlr.press/v275/barnard25a.html)\
-  **Aubrey Barnard**, Peggy Peissig, David Page\
+  **AB**, Peggy Peissig, David Page\
   [Causal Learning and Reasoning 4]( https://www.cclear.cc/2025)
     ([PMLR 275]( https://proceedings.mlr.press/v275/)), 2025\
   [paper]( pubs/barnard2025TemporalIpw.paper.pdf),
@@ -142,13 +153,13 @@ Selected Papers
 
 * [Causal Discovery of Adverse Drug Events in Observational Data](
     pubs/barnard2019CausalDiscoveryAdes.pdf)\
-  **Aubrey Barnard**\
+  **AB**\
   PhD Dissertation, Computer Sciences, University of Wisconsin–Madison, 2019\
   [bibtex]( pubs/barnard2019CausalDiscoveryAdes.bibtex)
 
 * [Causal Structure Learning via Temporal Markov Networks](
     https://proceedings.mlr.press/v72/barnard18a.html)\
-  **Aubrey Barnard**, David Page\
+  **AB**, David Page\
   [Probabilistic Graphical Models 9]( https://pgm2018.utia.cz/)
     ([PMLR 72]( https://proceedings.mlr.press/v72/)), 2018\
   [combined paper & supplement](
@@ -161,7 +172,7 @@ Selected Papers
 
 * [Identifying Adverse Drug Events by Relational Learning](
     https://aaai.org/papers/8332-identifying-adverse-drug-events-by-relational-learning/)\
-  David Page, Vítor Santos Costa, Sriraam Natarajan, **Aubrey Barnard**, Peggy Peissig, Michael Caldwell\
+  David Page, Vítor Santos Costa, Sriraam Natarajan, **AB**, Peggy Peissig, Michael Caldwell\
   [AAAI 26]( https://aaai.org/proceeding/01-aaai-2012/), 2012\
   [bibtex]( pubs/page2012IdentifyingAdesRelationalLearning.bibtex)
 
