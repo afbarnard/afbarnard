@@ -2,9 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@use "sass:math";
+@use "minima";
 
-@import "minima";
+// I don't know where the definition of '$spacing-unit' came from
+// before, but it's no longer recognized, so define it here.  Note that
+// this unit produces spaces of about 1px more than previously, i.e.,
+// '$spacing-unit == $old-spacing-unit / 2 + 1px'.
+$spacing-unit: 1rem;
 
 // Center page titles
 h1 {
@@ -13,13 +17,13 @@ h1 {
 
 // Add some spacing after horizontal rules
 hr {
-    margin-bottom: math.div($spacing-unit, 2);
+    margin-bottom: $spacing-unit;
 }
 
 // Make spacing around my portrait
 .portrait {
-    margin-right: math.div($spacing-unit, 2);
-    margin-bottom: math.div($spacing-unit, 2);
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
 }
 
 // Add a background image.  See
