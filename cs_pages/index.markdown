@@ -26,12 +26,13 @@ Aubrey Barnard
 
 -----
 
-I am a computer scientist doing machine learning research, mainly
+I am a computer scientist doing research in machine learning, mainly
 related to medical applications of causal discovery in databases of
 electronic health records.  My research interests include algorithms,
 causality, probabilistic graphical models, graphs, event history
-analysis / time series, multi-relational rule learning, and databases.
+analysis / time series, and rule learning from relational databases.
 
+<!--
 In 2019, I earned my PhD in [Computer Sciences](
 https://www.cs.wisc.edu/) from the [University of Wisconsin](
 https://www.wisc.edu/), advised by [David Page](
@@ -42,14 +43,37 @@ discovering the adverse effects of medications, through learning the
 structure of Bayesian network causal models, and through analyzing
 observational studies with machine learning for hypothesizing drug
 effects.  This research produced a new method for Bayesian network
-structure learning, and a novel causal discovery machine learning
+structure learning from sequences of events, and a novel causal discovery machine learning
 approach based on analyzing before–after studies with temporal inverse
 probability weighting.
+-->
 
-While I mostly work with [Python]( https://www.python.org/) (e.g.,
-[scikit-learn]( https://scikit-learn.org/), [NumPy]( https://numpy.org/)
-/ [SciPy]( https://www.scipy.org/), [matplotlib](
-https://matplotlib.org/), [PyTorch]( https://pytorch.org/)), I have been
+I have researched causal discovery in both of the main causal paradigms,
+observational studies (potential outcomes / Rubin causal model) and
+structural causal models (causal Bayesian networks / Pearl causal
+model).  For observational studies, I have analyzed matched case–control
+studies with machine learning to [discover early signs of ovarian
+cancer]( #paper-early-signs-oc) and to [detect adverse drug effects](
+#paper-ades-ilp), including [in situations where the drugs people take
+change over time]( #paper-tipw).  These studies have been built from
+databases of electronic health records with millions of patients ([All
+of Us]( https://allofus.nih.gov/), [UW-Health](
+https://www.uwhealth.org/), [Marshfield Clinic](
+https://marshfieldresearch.org/), [OMOP](
+https://web.archive.org/web/20120727122805/http://omop.fnih.org/node/22)),
+requiring automated cleaning, machine-learned phenotypes, and algorithms
+for large-scale matching.  For structural causal models, I have
+developed new algorithms for learning the structure of causal Bayesian
+networks, both [from event data]( #paper-tmns), where time helps
+considerably, and [from atemporal data](
+https://cibm.wisc.edu/events-calendar/causal-model-structure-learning-with-log-linear-markov-networks/).
+For my PhD research (in [Computer Sciences]( https://www.cs.wisc.edu/)),
+I worked with [David Page]( https://pages.cs.wisc.edu/~dpage/) (now at
+[Duke]( https://scholars.duke.edu/person/david.page)), initially on
+learning statistical relational models (models than combine probability
+and logic), and then on causality.
+
+While I mostly work with [Python]( https://www.python.org/), I have been
 writing all my numerical code in [Julia]( https://julialang.org/).  It
 is as easy to use as Python—it is interactive, high-level, expressive,
 multi-paradigm, dynamically-typed—but it runs at [machine speed](
@@ -129,10 +153,12 @@ Selected Papers
   **AB**, Scott Alfeld\
   In preparation
 
-* [Identifying Early Indicators of Ovarian Cancer in Electronic Health
+* <span id="paper-early-signs-oc">
+  [Identifying Early Indicators of Ovarian Cancer in Electronic Health
     Records via Interpretable Machine Learning and Clinical Mimic
     Controls](
-    https://amia.secure-platform.com/symposium/gallery/rounds/82037/details/30393)\
+    https://amia.secure-platform.com/symposium/gallery/rounds/82037/details/30393)
+  </span>\
   Aurod Ounsinegad,\* **AB**,\* Peter Argenta, Rene Welch Schwartz, Sierra
     Strutz, Tyson Wheelwright, Sumer Wallace, Jesús González-Bosquet,
     Manish Patankar, Irene M. Ong\
@@ -141,9 +167,11 @@ Selected Papers
   paper, <!--TODO[paper]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.paper.pdf),-->
   bibtex <!--TODO[bibtex]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.bibtex)-->
 
-* [Temporal Inverse Probability Weighting for Causal Discovery in
+* <span id="paper-tipw">
+  [Temporal Inverse Probability Weighting for Causal Discovery in
     Controlled Before–After Studies: Discovering ADEs in Generics](
-    https://proceedings.mlr.press/v275/barnard25a.html)\
+    https://proceedings.mlr.press/v275/barnard25a.html)
+  </span>\
   **AB**, Peggy Peissig, David Page\
   [Causal Learning and Reasoning 4]( https://www.cclear.cc/2025)
     ([PMLR 275]( https://proceedings.mlr.press/v275/)), 2025\
@@ -157,8 +185,10 @@ Selected Papers
   PhD Dissertation, Computer Sciences, University of Wisconsin–Madison, 2019\
   [bibtex]( pubs/barnard2019CausalDiscoveryAdes.bibtex)
 
-* [Causal Structure Learning via Temporal Markov Networks](
-    https://proceedings.mlr.press/v72/barnard18a.html)\
+* <span id="paper-tmns">
+  [Causal Structure Learning via Temporal Markov Networks](
+    https://proceedings.mlr.press/v72/barnard18a.html)
+  </span>\
   **AB**, David Page\
   [Probabilistic Graphical Models 9]( https://pgm2018.utia.cz/)
     ([PMLR 72]( https://proceedings.mlr.press/v72/)), 2018\
@@ -170,8 +200,10 @@ Selected Papers
   [bibtex](
     pubs/barnard2018CausalStructureLearningTemporalMarkovNetworks.bibtex)
 
-* [Identifying Adverse Drug Events by Relational Learning](
-    https://aaai.org/papers/8332-identifying-adverse-drug-events-by-relational-learning/)\
+* <span id="paper-ades-ilp">
+  [Identifying Adverse Drug Events by Relational Learning](
+    https://aaai.org/papers/8332-identifying-adverse-drug-events-by-relational-learning/)
+  </span>\
   David Page, Vítor Santos Costa, Sriraam Natarajan, **AB**, Peggy Peissig, Michael Caldwell\
   [AAAI 26]( https://aaai.org/proceeding/01-aaai-2012/), 2012\
   [bibtex]( pubs/page2012IdentifyingAdesRelationalLearning.bibtex)
