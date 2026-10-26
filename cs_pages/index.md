@@ -166,7 +166,7 @@ Selected Papers
   AMIA Symposium, 2026\
   Accepted for oral presentation.  \*Equal contributions.\
   paper, <!--TODO[paper]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.paper.pdf),-->
-  bibtex <!--TODO[bibtex]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.bibtex)-->
+  [bibtex]( pubs/ounsinegad2026IdentifyingEarlyIndicatorsOvarianCancer.bibtex)
 
 * <span id="paper-tipw">
   [Temporal Inverse Probability Weighting for Causal Discovery in
