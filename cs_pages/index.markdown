@@ -20,8 +20,8 @@ Aubrey Barnard
 <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"/></svg> <span class="username">{{ site.github_username | escape }}</span></a></li>
 <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"/></svg> <span class="username">{{ site.linkedin_username | escape }}</span></a></li>
 </ul>
-<a href="barnard_cv.pdf">Curriculum Vitæ</a> |
-<a href="barnard_resume.pdf">Résumé</a>
+<a href="aubrey_barnard_cv.pdf">Curriculum Vitæ</a> |
+<a href="aubrey_barnard_resume.pdf">Résumé</a>
 </span>
 </div>
 
