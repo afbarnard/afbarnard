@@ -2,6 +2,12 @@
 
   <div class="wrapper">
 
+    {%- if page.updated -%}
+    <p class="updated">
+    Updated {{ page.updated | escape }}.
+    </p>
+    {%- endif -%}
+
     <p class="copyright">
     Copyright &copy; {{ page.copyright_years | escape }}
     <span class="author">

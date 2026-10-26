@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Aubrey Barnard
+updated: October 26, 2026
 copyright_years: 2020, 2025–2026
 ---
 
